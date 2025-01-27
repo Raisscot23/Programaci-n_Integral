@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: black;
+}
+
+#contenido{
+    display: grid;
+    grid-column-gap: 5px ;
+    grid-template-areas:
+    "sub-contenedor-1 sub-contenedor-2"
+    "sub-contenedor-1 sub-contenedor-3";
+}
+
+.sub-contenedor-1{
+    color: white;
+    width: 100%;
+}
+
+.sub-contenedor-1 img{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sub-contenedor-2{
+    color: white;
+    width: 90%;
+}
+
+.sub-contenedor-3{
+    color: white;
+    width: 85%;
+}
+
+.sub-contenedor-3 img{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+}
